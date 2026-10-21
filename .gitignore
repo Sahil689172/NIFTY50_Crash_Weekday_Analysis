@@ -1,0 +1,32 @@
+
+# R generated files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+
+# Downloaded raw market data
+# Re-download using R/01_download_data.R when required
+data/raw/*.csv
+data/raw/constituent_prices/
+
+# Processed datasets and model outputs
+# Keep locally unless specifically approved for GitHub
+data/processed/
+models/
+results/
+reports/figures/
+
+# Sensitive local configuration
+.env
+.env.*
+!.env.example
